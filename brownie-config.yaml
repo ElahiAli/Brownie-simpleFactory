@@ -1,0 +1,14 @@
+dependencies:
+
+compiler:
+  solc:
+    remappings:
+
+dotenv: .env
+
+networks:
+  default:
+  gquicknode:
+
+wallets:
+  from_key: ${PRIVATE_KEY}
